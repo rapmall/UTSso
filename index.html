@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Install Kali Linux di VirtualBox</title>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <a>MUHAMMAD AKMAL RAFI | 102230063 | IM23A</a>
+    </div>
+    
+        <h1>Kali Linux</h1>
+        <p><strong>Di bawah ini saya akan menjelaskan pengertian, sejarah, kelebihan dan kekurangan, jenis-jenis, serta cara menginstall Kali Linux di VirtualBox.</strong></p>
+
+        <div class="step">
+            <h2>Pengertian Kali Linux</h2>
+            <p>Kali Linux, sebuah sistem operasi (OS) open-source, dirancang untuk keperluan hacking dan pengujian penetrasi pada jaringan komputer. 
+                Dirilis pada 2013 oleh Offensive Security, Kali Linux merupakan turunan dari Debian Linux dan menjadi standar industri untuk pengujian penetrasi dan forensik digital. 
+                Dengan lebih dari 600 alat hacking dan pentesting seperti nmap, metasploit, dan aircrack-ng, Kali Linux memiliki fokus pada keamanan dan privasi serta dapat digunakan sebagai sistem operasi utama atau sebagai OS live pada USB atau CD.</p>
+        </div>
+    
+        <div class="step">
+            <h2>Sejarah Kali Linux</h2>
+            <p>Pertama kali diluncurkan pada 2013, Kali Linux menggantikan BackTrack Linux, distribusi Linux yang telah lama digunakan dalam bidang keamanan informasi sejak 2006. Offensive Security merilis Kali Linux dengan fitur-fitur lebih lengkap dan dukungan yang lebih baik,
+                menjadikannya pilihan utama para profesional keamanan informasi. Sejak itu, Kali Linux telah menjadi distribusi Linux populer untuk kegiatan hacking dan penetration testing.</p>
+        </div>
+    
+        <div class="step">
+            <h2>Kekurangan dan kelebihan Kali Linux</h2>
+            <h3>Kekurangan:</h3>
+            <p>1. <strong>Tidak cocok untuk pengguna pemula:</strong> Dirancang khusus untuk ahli keamanan, mungkin sulit bagi pemula.</p>
+            <p>2. <strong>Kurangnya dukungan resmi:</strong> Tidak didukung secara resmi oleh vendor tertentu.</p>
+            <p>3. <strong>Kurang stabil: </strong> Sering mendapatkan pembaruan, bisa kurang stabil dan mengalami bug.</p>
+            <h3>Kelebihan:</h3>
+            <p>1. <strong>Terintegrasi dengan berbagai alat keamanan: </strong>  Lebih dari 600 alat keamanan terintegrasi, memudahkan tes penetrasi.</p>
+            <p>2. <strong>Gratis dan Open Source:</strong>  Tersedia secara gratis dan open source, tanpa biaya lisensi.</p>
+            <p>3. <strong>Kompatibilitas hardware yang baik: </strong> Dapat diinstal pada berbagai jenis hardware dan kompatibel dengan perangkat keras.</p>
+            <p>4. <strong>Komunitas yang besar: </strong> Mendukung oleh komunitas pengguna besar dan aktif.</p>
+        </div>
+    
+        <div class="step">
+            <h2>Jenis-jenis Kali OS</h2>
+            <p>1. <strong>Kali Linux Full: </strong>  Mengandung lebih dari 600 alat hacking untuk berbagai jenis tes penetrasi.</p>
+            <p>2. <strong>Kali Linux Light: </strong>  Cocok untuk perangkat keras lebih tua atau pengguna yang membutuhkan OS dasar.</p>
+            <p>3. <strong>Kali Linux ARM: </strong> Dukung ponsel dan tablet, termasuk Raspberry Pi dan Odroid.</p>
+            <p>4. <strong>Kali Linux Virtual: </strong> Versi untuk diinstal sebagai mesin virtual di atas OS utama.</p>
+            <p>5. <strong>Kali Linux NetHunter: </strong> Fokus pada pengujian penetrasi perangkat seluler Android dan iOS.</p>
+            <p>5. <strong>Kali Linux Docker: </strong>  Versi yang berjalan di dalam wadah Docker.</p>
+            <p>5. <strong>Kali Linux AWS: </strong> Instal pada layanan cloud Amazon Web Services (AWS).</p>
+        </div>
+
+        <div class="step">
+            <h2>Cara menginstall Kali Linux di virtualBox</h2>
+            <p>Di bawah ini adalah panduan langkah demi langkah untuk menginstall Kali Linux di VirtualBox. Pastikan Anda sudah mengunduh <a href="https://www.virtualbox.org/" target="_blank">VirtualBox</a> dan
+            <a href="https://www.kali.org/downloads/" target="_blank">ISO Kali Linux</a> terlebih dahulu.</p>
+            <p>1. Buka aplikasi VirtualBox yang telah Anda install.</p>
+            <p>2. Create Virtual Machine dengan klik tombol New > isi nama, sistem operasi, dan folder.</p>
+            <img class="langkahImg" src="img/kali1.jpg" src="tutorjpg">
+            <p>3. Memory size. Pilih ukuran RAM yang akan dialokasikan untuk Virtual Machine Kali. Pada contoh kami memakai 1GB. Lalu pilih Next.</p>
+            <img class="langkahImg" src="img/kali2.jpg" alt="tutorjpg">
+            <p>4. Hard Disk. Pilih sesuai default, yaitu Create virtual had disk now. Lalu klik tombol Create.</p>
+            <img class="langkahImg" src="img/kali3.jpg" alt="tutorjpg">
+            <p>5. Hard Disk file type. Pilih default VDI. Lalu klik tombol Next.</p>
+            <img class="langkahImg" src="img/kali4.jpg" alt="tutorjpg">
+            <p>6. Storage on physical hard disk. Pilih default Dynamically allocated. Lalu klik tombol Next.</p>
+            <img class="langkahImg" src="img/kali5.jpg" alt="tutorjpg">
+            <p>7. File allocated and size. Menentukan jumlah hard disk yang akan digunakan untuk Virtual Machine ini. pada contoh kami mengisi 10GB. Lalu klik tombol Create.</p>
+            <img class="langkahImg" src="img/kali6.jpg" alt="tutorjpg">
+            <p>8. Virtual Machine Kali linux sudah jadi dengan status Powered Off.</p>
+            <img class="langkahImg" src="img/kali7.jpg" alt="tutorjpg">
+            <p>Setelah Virtual Machine selesai dibuat dengan langkah-langkah diatas. Langkah selanjutnya kita akan setting storage untuk memilih file ISO Kali dan mengatur processor.</p>
+            <p>9. Pilih tombol Setting > Storage > empty > pilih file iso Kali yang sudah di download, seperti gambar dibawah ini.</p>
+            <img class="langkahImg" src="img/kali8.jpg" alt="tutorjpg">
+            <p>10. Selanjutnya ke menu System untuk mengatur Processor virtual machine. Pada contoh ini kami memakai 2 core. Lalu klik OK</p>
+            <img class="langkahImg" src="img/kali9.jpg" alt="tutorjpg">
+            <p>Pada langkah selanjutnya kita akan coba menjalankan virtual machine Kali linux yang sudah dikonfigurasi diatas.</p>
+            <p>11. Klik START. Jika muncul pop up start up disk, pilih Kali Linux yang sudah kita pilih sebelumnya kemudian klik start.</p>
+            <img class="langkahImg" src="img/kali10.jpg" alt="tutorjpg">
+            <p>12. Setelah itu pilih Graphical Install, supaya proses instalasinya lebih mudah.</p>
+            <img class="langkahImg" src="img/kali11.jpg"alt="tutorjpg">
+            <p>13. Ikuti langkah-langkah instalasi, mulai dari pilih bahasa English > select your location (pilih other – Asia – Indonesia). Klik Continue.</p>
+            <p>14. Pilih kombinasi bahasa (United States) > keyboard layout (American English). Klik Continue, tunggu proses selesai.</p>
+            <img class="langkahImg" src="img/kali12.jpg" alt="tutorjpg">
+            <img class="langkahImg" src="img/kali13.jpg" alt="tutorjpg">
+            <p>15. Setelah proses selesai kita akan melanjutkan konfigurasi hostname pada machine. Gunakan satu kata sebagai indentitas machine.</p>
+            <p>Pada contoh kami memakai hostname “kalilinuxrumahweb”. Klik tombol Continue.</p>
+            <img class="langkahImg" src="img/kali14.jpg" alt="tutorjpg">
+            <p>16. Pada langkah pengisian domain name, bisa kita lewati. Klik Continue.</p>
+            <p>17. Setup full name, username dan password, kami menggunakan name: “Kali Rumahweb”, user “kalirumahweb”, dan password “*******”. Continue lalu tunggu proses selesai.</p>
+            <p>18. Setelah itu pilh zona waktu yang akan digunakan, pada contoh kami menggunakan WIB. Klik tombol Continue.</p>
+            <img class="langkahImg" src="img/kali15.jpg" alt="tutorjpg">
+            <p>19. Pada pengaturan partisi disk, pilih default Guide – use entri disk > lalu pilih ATA VBOX HARDDISK > pilih All in one partition. Kemudian Continue.</p>
+            <img class="langkahImg" src="img/kali16.jpg" alt="tutorjpg">
+            <img class="langkahImg" src="img/kali17.jpg" alt="tutorjpg">
+            <img class="langkahImg" src="img/kali18.jpg" alt="tutorjpg">
+            <p>20. Otomatis akan dibuatkan dua partisi, primary sebagai file system dan logical sebagai swap. Pilih Finish Partitioning and write to disk. Klik Continue</p>
+            <img class="langkahImg" src="img/kali19.jpg" alt="tutorjpg">        
+            <p>21. Pada tahap ini pilih “Yes”, untuk konfirmasi pengisian konfigurasi sebelumnya. Lalu Continue.</p>
+            <img class="langkahImg" src="img/kali20.jpg">
+            <img class="langkahImg" src="img/kali21.jpg">
+            <p>Tunggu sampai proses file sistem linux selesai, karena akan membutuhkan waktu beberapa menit.</p>
+            <p>22. etelah selesai maka akan muncul pilihan Software yang akan diinstall. Pada contoh ini kami memilih default > lalu Continue.</p>
+            <img src="img/kali22.jpg" alt="tutorjpg">
+            <p>Instalasi software pada langkah ini memerlukan waktu paling singkat 1 jam. Tergantung konfigurasi RAM dan Processor yang kita gunakan di Virtual Machine.</p>
+            <p>Semakin besar RAM dan Processor yang kita gunakan, maka semakin cepat instalasinya. Tunggu sampai proses instalasi selesai.</p>
+            <p>23. Setelah instalasi software selesai, selanjutnya klik Yes untuk instalasi GRUB boot loader. Lalu pilih /dev/sda, agar tidak mengisi secara manual. Klik Continue.</p>
+            <p>24. Finish Instalasi. Klik continue. Selanjutnya VM akan melakukan restart dan tunggu sampai selesai.</p>
+        </div>
+
+        <div class="step">
+        <h2>Selamat! Anda Telah Berhasil Menginstal Kali Linux di VirtualBox</h2>
+        <p>Sekarang Anda dapat menggunakan Kali Linux di dalam mesin virtual dan bereksperimen tanpa merusak sistem utama Anda.</p>
+        </div>
+
+        <footer>
+            &copy; 2024 Panduan Install Kali Linux. Dikembangkan oleh Muhammad Akmal Rafi.
+        </footer>
+</body>
+</html>

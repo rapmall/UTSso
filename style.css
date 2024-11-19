@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: skyblue;
+}
+.header{
+    background-color: #333; 
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+p {
+    color: #555;
+}
+ul {
+    padding-left: 20px;
+}
+.step {
+    background: #e7f3ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.langkahImg {
+    width: 50%;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+}
